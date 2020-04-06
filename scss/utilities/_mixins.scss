@@ -1,0 +1,30 @@
+/* ============================================= */
+/*                   Mixins                      */
+/* ============================================= */
+
+
+// Typography mixin
+
+@mixin text($weight, $color) {
+    font-weight: $weight;
+    color: $color;
+}
+
+
+// Button mixin
+
+@mixin button($color) {
+    background-color: $color;
+}
+
+// Images & 
+
+@mixin display($display, $margin-left, $margin-right, 
+              $margin-top: null, $max-width: null,) {
+    display: $display;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    margin-top: $margin-top;
+    max-width: $max-width;
+}
+

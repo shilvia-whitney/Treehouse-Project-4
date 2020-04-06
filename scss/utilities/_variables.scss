@@ -1,0 +1,57 @@
+/* ============================================= */
+/*                 Variables                     */
+/* ============================================= */
+
+$base-color: #777;
+$aqua-color: #51ddfc;
+$aquamarine-color: #58e1c1;
+$red-color: #e4757a;
+$lavender-color: #927bc1;
+$jade-color: #63cc82;
+$amber-color: #fd7856;
+
+
+// Grid Colors
+
+$col-colors: (
+    'col-1' : $lavender-color,
+    'col-2' : $amber-color,
+    'col-3' : #deb2ee,
+    'col-4' : #7ee6fd,
+    'col-5' : #88d9a0,
+    'col-6' : #4da2bb,
+    'col-7' : #ec9fa3,
+    'col-8' : #fd9f85,
+    'col-9' : $red-color,
+    'col-10': $jade-color,
+    'col-11': $aqua-color,
+    'col-12': #80e8d1,
+    );
+
+// Column Percentages
+
+$col-percentage: (
+    'col-1' : 8.33%,
+    'col-2' : 16.67%,
+    'col-3' : 25.00%,
+    'col-4' : 33.33%,
+    'col-5' : 41.67%,
+    'col-6' : 50.00%,
+    'col-7' : 58.33%,
+    'col-8' : 66.67%,
+    'col-9' : 75.00%,
+    'col-10': 83.33%,
+    'col-11': 91.67%,
+    'col-12': 100%,
+    );
+
+
+// Break Point
+
+$min-break: 768px;
+
+
+
+
+
+    

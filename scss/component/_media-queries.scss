@@ -1,0 +1,58 @@
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: $min-break) {
+    .container {
+      max-width: 1400px;
+      @include display(block, auto, auto);
+    }
+    
+    .centered {
+      @include display(block, auto, auto);
+    }
+    
+    .row {
+      flex-direction: row;
+    }
+    
+    [class^=col] {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+    }
+    
+    [class^=col] + [class^=col] {
+      margin-left: 10px;
+    }
+
+    @each $col-perct, $percent in $col-percentage {
+      .#{$col-perct} {
+        flex-basis: $percent;
+      }
+   }
+    
+    .nav {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    
+    .nav-link {
+      flex-basis: 100px;
+    }
+    
+    .btn {
+      padding: 10px 30px;
+    }
+    
+    .btn + .btn {
+      margin-left: 10px;
+    }
+    
+    .logo {
+      margin-left: initial;
+      margin-right: initial;
+    }
+    
+    }
